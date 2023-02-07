@@ -117,6 +117,11 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 1rem 1rem;
     width: 100%;
 }
+
+.email-input:hover, .email-input:focus {
+    border: 2px solid var(--soft-red);
+}
+
 .error-message {
     color: var(--soft-red);
     font-size: 0.75em;
@@ -142,6 +147,10 @@ p, h1, h2, h3, h4, h5, h6 {
     border-radius: 9999px;
     padding: 0.2rem 2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.submit-btn:hover {
+    background: pink;
 }
 
 .error-message, .error {
