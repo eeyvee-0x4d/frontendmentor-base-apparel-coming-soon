@@ -25,8 +25,8 @@ const handleValueChange = () => {
         }
     }
     else {
-        error_icon.classList.remove("error-active")
-        error_message.classList.remove("error-active")
+        error_icon.classList.add("error-active")
+        error_message.classList.add("error-active")
     }
     
 }
